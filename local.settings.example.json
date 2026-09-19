@@ -1,0 +1,24 @@
+{
+	"IsEncrypted": false,
+	"Values": {
+		"AzureWebJobsStorage": "UseDevelopmentStorage=true",
+		"FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+		"TaskHubName": "DocumentWorkflowLocal",
+		"KEY_VAULT_URI": "https://example.vault.azure.net/",
+		"SENDGRID_PRIVATE_KEY_NAME": "sendgrid-api-key",
+		"SENDGRID_SENDER": "noreply@example.com",
+		"SENDGRID_ENVELOPE_COMPLETED_TEMPLATE_ID": "example-template-id",
+		"DOCUSIGN_PRIVATE_KEY_NAME": "docusign-private-key",
+		"DOCUSIGN_CLIENT_URI": "https://demo.docusign.net/restapi",
+		"DOCUSIGN_AUTH_SERVER": "account-d.docusign.com",
+		"DOCUSIGN_INTEGRATION_KEY": "example-integration-key",
+		"DOCUSIGN_USER_ID": "example-user-id",
+		"DOCUSIGN_ACCOUNT_ID": "example-account-id",
+		"DOCUSIGN_TOKEN_EXPIRATION_HOURS": "1",
+		"DOCUSIGN_MAX_TOKEN_ATTEMPTS": "5",
+		"BLOB_URI": "https://example.blob.core.windows.net/",
+		"BLOB_CONTAINER": "documents",
+		"SQL_CONNECTION": "Server=localhost;Database=DocumentWorkflow;Integrated Security=true;TrustServerCertificate=true",
+		"SENDGRID_NOTIFICATION_RECIPIENT": "reviewer@example.com"
+	}
+}
